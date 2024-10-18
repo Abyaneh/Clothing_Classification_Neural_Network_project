@@ -66,8 +66,14 @@ We developed three CNN models with varying architectures to find the optimal str
 - Accuracy and loss metrics were used for evaluation.
 - Model 3 showed the best generalization with minimized overfitting due to the inclusion of **Dropout** and **Data Augmentation**.
 
-![Accuracy Graph](path_to_image_here)
-![Loss Graph](path_to_image_here)
+#### Model1
+![Model1](https://github.com/Abyaneh/Neural_Network_projects/blob/main/Photos/Epoch-Accuracy_and_Epoch_Loss_Chart_project3_10epochs_model1.png)
+
+#### Model2
+![Model2](https://github.com/Abyaneh/Neural_Network_projects/blob/main/Photos/Epoch-Accuracy_and_Epoch_Loss_Chart_project3_10epochs_model2.png)
+
+#### Model3
+![Model3](https://github.com/Abyaneh/Neural_Network_projects/blob/main/Photos/Epoch-Accuracy_and_Epoch_Loss_Chart_project3_10epochs_model3.png)
 
 ## Technologies & Tools Used
 
