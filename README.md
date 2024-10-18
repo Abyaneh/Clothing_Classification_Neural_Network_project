@@ -1,6 +1,21 @@
 # Clothing Classification
 
 
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Project 1: Diagnosis of Patients with Fat](#project-1-diagnosis-of-patients-with-fat)
+- [Project 2: House Price Prediction](#project-2-house-price-prediction)
+- [Project 3: Clothing Classification](#project-3-clothing-classification)
+- [Technologies & Tools Used](#technologies--tools-used)
+- [How to Run the Project](#how-to-run-the-project)
+- [Team Members](#team-members)
+- [Contributing](#contributing)
+- [License](#license)
+
+---
+
+
 **Objective**: Classify clothing images into categories such as shirts, pants, and dresses using CNN models.
 
 ### Data Characteristics:
