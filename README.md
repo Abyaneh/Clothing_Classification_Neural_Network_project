@@ -25,7 +25,7 @@ This project focuses on **classifying clothing images** into different categorie
   - **10,000 test images**
 - Each image is labeled with a clothing category such as shirt, pants, etc.
   
-The training and validation dataset in [this link](https://drive.google.com/file/d/1XaRAL2GD6z3uL-WxaFBQYLhfwx1M7aqv/view?usp=drive_link)
+The training and validation dataset in [this link](https://drive.google.com/file/d/1XaRAL2GD6z3uL-WxaFBQYLhfwx1M7aqv/view?usp=drive_link)(hint: This file is very large, so I uploaded it to my Colab..)
 
 The test dataset in [this link](https://github.com/Abyaneh/Clothing_Classification/blob/main/Code/test_data.csv)
 
