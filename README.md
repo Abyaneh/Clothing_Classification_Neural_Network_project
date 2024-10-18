@@ -1,6 +1,6 @@
 # Clothing Classification
 
-![Clothing Classification Image](path_to_image_here)
+![Clothing Classification Image](https://github.com/Abyaneh/Clothing_Classification/blob/main/photos/Clothing%20Classification%20Image.png)
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -67,13 +67,13 @@ We developed three CNN models with varying architectures to find the optimal str
 - Model 3 showed the best generalization with minimized overfitting due to the inclusion of **Dropout** and **Data Augmentation**.
 
 #### Model1
-![Model1](https://github.com/Abyaneh/Neural_Network_projects/blob/main/Photos/Epoch-Accuracy_and_Epoch_Loss_Chart_project3_10epochs_model1.png)
+![Model1](https://github.com/Abyaneh/Clothing_Classification/blob/main/photos/Epoch-Accuracy_and_Epoch_Loss_Chart_10epochs_model1.png)
 
 #### Model2
-![Model2](https://github.com/Abyaneh/Neural_Network_projects/blob/main/Photos/Epoch-Accuracy_and_Epoch_Loss_Chart_project3_10epochs_model2.png)
+![Model2](https://github.com/Abyaneh/Clothing_Classification/blob/main/photos/Epoch-Accuracy_and_Epoch_Loss_Chart_10epochs_model2.png)
 
 #### Model3
-![Model3](https://github.com/Abyaneh/Neural_Network_projects/blob/main/Photos/Epoch-Accuracy_and_Epoch_Loss_Chart_project3_10epochs_model3.png)
+![Model3](https://github.com/Abyaneh/Clothing_Classification/blob/main/photos/Epoch-Accuracy_and_Epoch_Loss_Chart_10epochs_model3.png)
 
 ## Technologies & Tools Used
 
