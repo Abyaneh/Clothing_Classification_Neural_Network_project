@@ -91,12 +91,7 @@ We developed three CNN models with varying architectures to find the optimal str
 
 ### Step 1: Clone the repository
 ```bash
-git clone https://github.com/yourusername/clothing-classification.git
-```
-
-### Step 2: Install dependencies
-```bash
-pip install -r requirements.txt
+git clone https://github.com/Abyaneh/Clothing_Classification/tree/main
 ```
 
 ### Step 3: Train the model
