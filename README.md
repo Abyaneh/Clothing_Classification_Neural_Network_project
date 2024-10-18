@@ -27,7 +27,7 @@ This project focuses on **classifying clothing images** into different categorie
   
 The training and validation dataset in [this link](https://drive.google.com/file/d/1XaRAL2GD6z3uL-WxaFBQYLhfwx1M7aqv/view?usp=drive_link)
 
-The test dataset in [this link]()
+The test dataset in [this link](https://github.com/Abyaneh/Clothing_Classification/blob/main/Code/test_data.csv)
 
 ### Data Preprocessing:
 - Images were resized and normalized to ensure consistent input.
