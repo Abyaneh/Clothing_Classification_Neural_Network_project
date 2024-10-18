@@ -25,7 +25,9 @@ This project focuses on **classifying clothing images** into different categorie
   - **10,000 test images**
 - Each image is labeled with a clothing category such as shirt, pants, etc.
   
-![Sample Dataset](path_to_image_here)
+The training and validation dataset in [this link](https://drive.google.com/file/d/1XaRAL2GD6z3uL-WxaFBQYLhfwx1M7aqv/view?usp=drive_link)
+
+The test dataset in [this link]()
 
 ### Data Preprocessing:
 - Images were resized and normalized to ensure consistent input.
