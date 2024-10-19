@@ -88,7 +88,7 @@ We developed three CNN models with varying architectures to find the optimal str
 #### Model3
 ![Model3](https://github.com/Abyaneh/Clothing_Classification/blob/main/photos/Epoch-Accuracy_and_Epoch_Loss_Chart_10epochs_model3.png)
 
-#### Hint: All of the models have 10 epochs, I also trained this model with 5 epochs that you can see in [this folder]()
+#### Hint: All of the models were trained for 10 epochs. I also trained this model for 5 epochs, and you can find the code in [this file](https://github.com/Abyaneh/Clothing_Classification/blob/main/Code/third_pro.ipynb)
 
 [Back to Top](#table-of-contents)
 ## Technologies & Tools Used
