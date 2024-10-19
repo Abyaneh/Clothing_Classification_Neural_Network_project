@@ -18,6 +18,7 @@
 
 This project focuses on **classifying clothing images** into different categories using **Convolutional Neural Networks (CNNs)**. The goal is to develop a reliable image classification model capable of categorizing clothing into predefined labels like shirts, pants, and dresses.
 
+[Back to Top](#table-of-contents)
 ## Data Characteristics
 
 - **Dataset**: The dataset consists of **70,000 images** of clothing items, divided into:
@@ -33,6 +34,7 @@ The test dataset in [this link](https://github.com/Abyaneh/Clothing_Classificati
 - Images were resized and normalized to ensure consistent input.
 - **Data Augmentation** techniques such as rotation, zoom, and flipping were applied to enhance model generalization and prevent overfitting.
 
+[Back to Top](#table-of-contents)
 ## Model Architecture
 
 We developed three CNN models with varying architectures to find the optimal structure for this task.
@@ -57,6 +59,7 @@ We developed three CNN models with varying architectures to find the optimal str
 - **ModelCheckpoint** to save the best model weights during training.
 - **Data Augmentation** for increasing dataset diversity.
 
+[Back to Top](#table-of-contents)
 ## Results & Performance
 
 ### Model Comparison:
@@ -77,6 +80,7 @@ We developed three CNN models with varying architectures to find the optimal str
 #### Model3
 ![Model3](https://github.com/Abyaneh/Clothing_Classification/blob/main/photos/Epoch-Accuracy_and_Epoch_Loss_Chart_10epochs_model3.png)
 
+[Back to Top](#table-of-contents)
 ## Technologies & Tools Used
 
 - **Programming Language**: Python
@@ -89,6 +93,7 @@ We developed three CNN models with varying architectures to find the optimal str
   - Multi-class image classification
 - **Optimization Techniques**: EarlyStopping, ModelCheckpoint, Dropout, Data Augmentation
 
+[Back to Top](#table-of-contents)
 ## How to Run the Project
 
 ### Step 1: Clone the repository
@@ -111,12 +116,15 @@ python evaluate_model.py
 python test_model.py --image_path /path/to/image
 ```
 
+[Back to Top](#table-of-contents)
 ## Contributing
 
 Feel free to contribute by submitting a pull request or creating an issue.
 
+[Back to Top](#table-of-contents)
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
+[Back to Top](#table-of-contents)
