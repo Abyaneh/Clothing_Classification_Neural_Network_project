@@ -101,17 +101,17 @@ We developed three CNN models with varying architectures to find the optimal str
 git clone https://github.com/Abyaneh/Clothing_Classification/tree/main
 ```
 
-### Step 3: Train the model
+### Step 2: Train the model
 ```bash
 python train_model.py
 ```
 
-### Step 4: Evaluate the model
+### Step 3: Evaluate the model
 ```bash
 python evaluate_model.py
 ```
 
-### Step 5: Test the model on new images
+### Step 4: Test the model on new images
 ```bash
 python test_model.py --image_path /path/to/image
 ```
