@@ -47,18 +47,18 @@ We developed three CNN models with varying architectures to find the optimal str
 
 #### Model 1 Architecture:
 
-[Model 1 Architecture](https://github.com/Abyaneh/Clothing_Classification/blob/main/photos/Model%201%20Architecture.jpg)
+![Model 1 Architecture](https://github.com/Abyaneh/Clothing_Classification/blob/main/photos/Model%201%20Architecture.jpg)
 
 ### Model 2 Architecture:
 - 3 convolutional layers with 32, 64, and 128 filter sizes, followed by **MaxPooling** layers.
 - Fully connected layer and Softmax output layer.
 
-[Model 2 Architecture](https://github.com/Abyaneh/Clothing_Classification/blob/main/photos/Epoch-Accuracy_and_Epoch_Loss_Chart_10epochs_model2.png
+![Model 2 Architecture](https://github.com/Abyaneh/Clothing_Classification/blob/main/photos/Epoch-Accuracy_and_Epoch_Loss_Chart_10epochs_model2.png
 )
 ### Model 3 Architecture (Best Performance):
 - Deeper architecture with 5 convolutional layers and Dropout, yielding the best test accuracy of **92.17%**.
 - 
-[Model 1 Architecture](https://github.com/Abyaneh/Clothing_Classification/blob/main/photos/Epoch-Accuracy_and_Epoch_Loss_Chart_10epochs_model3.png)
+![Model 1 Architecture](https://github.com/Abyaneh/Clothing_Classification/blob/main/photos/Epoch-Accuracy_and_Epoch_Loss_Chart_10epochs_model3.png)
 
 ### Optimization Techniques:
 - **EarlyStopping** to monitor validation accuracy and halt training when performance plateaus.
