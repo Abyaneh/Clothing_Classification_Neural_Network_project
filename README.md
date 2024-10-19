@@ -126,5 +126,4 @@ Feel free to contribute by submitting a pull request or creating an issue.
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
----
 [Back to Top](#table-of-contents)
