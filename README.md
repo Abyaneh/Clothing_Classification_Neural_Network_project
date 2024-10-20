@@ -1,7 +1,5 @@
 # Clothing Classification
 
-![Clothing Classification Image](https://github.com/Abyaneh/Clothing_Classification/blob/main/photos/Clothing%20Classification%20Image.png)
-
 ## Table of Contents
 - [Introduction](#introduction)
 - [Data Characteristics](#data-characteristics)
@@ -17,6 +15,7 @@
 ## Introduction
 
 This project focuses on **classifying clothing images** into different categories using **Convolutional Neural Networks (CNNs)**. The goal is to develop a reliable image classification model capable of categorizing clothing into predefined labels like shirts, pants, and dresses.
+![Clothing Classification Image](https://github.com/Abyaneh/Clothing_Classification/blob/main/photos/Clothing%20Classification%20Image.png)
 
 [Back to Top](#table-of-contents)
 ## Data Characteristics
@@ -26,9 +25,9 @@ This project focuses on **classifying clothing images** into different categorie
   - **10,000 test images**
 - Each image is labeled with a clothing category such as shirt, pants, etc.
   
-The training and validation dataset in [this link](https://drive.google.com/file/d/1XaRAL2GD6z3uL-WxaFBQYLhfwx1M7aqv/view?usp=drive_link) (hint: This file is very large, so I uploaded it to my Colab.)
+- training and validation dataset [(download)](https://drive.google.com/file/d/1XaRAL2GD6z3uL-WxaFBQYLhfwx1M7aqv/view?usp=drive_link) 
 
-The test dataset in [this link](https://github.com/Abyaneh/Clothing_Classification/blob/main/Code/test_data.csv)
+- test dataset [(download)](https://github.com/Abyaneh/Clothing_Classification/blob/main/Code/test_data.csv)
 
 ### Data Preprocessing:
 - Images were resized and normalized to ensure consistent input.
@@ -37,7 +36,7 @@ The test dataset in [this link](https://github.com/Abyaneh/Clothing_Classificati
 [Back to Top](#table-of-contents)
 ## Model Architecture
 
-We developed three CNN models with varying architectures to find the optimal structure for this task.
+We developed three CNN models with different architectures to find the optimal structure for this task.
 
 ### Model 1 Architecture:
 - 4 convolutional layers with filter sizes of 32, 64, 128, and 256, each followed by **MaxPooling** layers.
