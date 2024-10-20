@@ -6,7 +6,6 @@
 - [Model Architecture](#model-architecture)
 - [Results & Performance](#results--performance)
 - [Technologies & Tools Used](#technologies--tools-used)
-- [How to Run the Project](#how-to-run-the-project)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -104,32 +103,10 @@ We developed three CNN models with different architectures to find the optimal s
 - **Machine Learning Techniques**: 
   - Convolutional Neural Networks (CNNs)
   - Multi-class image classification
-- **Optimization Techniques**: EarlyStopping, ModelCheckpoint, Dropout, Data Augmentation
+- **Optimization Techniques**: EarlyStopping, ModelCheckpoint, Dropout
 
 [Back to Top](#table-of-contents)
-## How to Run the Project
 
-### Step 1: Clone the repository
-```bash
-git clone https://github.com/Abyaneh/Clothing_Classification/tree/main
-```
-
-### Step 2: Train the model
-```bash
-python train_model.py
-```
-
-### Step 3: Evaluate the model
-```bash
-python evaluate_model.py
-```
-
-### Step 4: Test the model on new images
-```bash
-python test_model.py --image_path /path/to/image
-```
-
-[Back to Top](#table-of-contents)
 ## Contributing
 
 Feel free to contribute by submitting a pull request or creating an issue.
