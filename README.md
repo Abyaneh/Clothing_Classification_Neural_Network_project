@@ -20,15 +20,20 @@ This project focuses on **classifying clothing images** into different categorie
 
 [Back to Top](#table-of-contents)
 ## Data Characteristics
-
-- **Dataset**: The dataset consists of **70,000 images** of clothing items, divided into:
+- **Dataset** ([Fashion MNIST](https://www.kaggle.com/datasets/zalando-research/fashionmnist)): The dataset consists of **70,000 images** of clothing items, divided into:
   - **60,000 training/validation images**
   - **10,000 test images**
-- Each image is labeled with a clothing category such as shirt, pants, etc.
-  
-- training and validation dataset [(download)](https://drive.google.com/file/d/1XaRAL2GD6z3uL-WxaFBQYLhfwx1M7aqv/view?usp=drive_link) 
-
-- test dataset [(download)](https://github.com/Abyaneh/Clothing_Classification/blob/main/Code/test_data.csv)
+- Each image is labeled to one of the following labels:
+  - 0: T-shirt/top
+  - 1: Trouser
+  - 2: Pullover
+  - 3: Dress
+  - 4: Coat
+  - 5: Sandal
+  - 6: Shirt
+  - 7: Sneaker
+  - 8: Bag
+  - 9: Ankle boot
 
 ### Data Preprocessing:
 - Images were resized and normalized to ensure consistent input.
