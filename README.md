@@ -15,6 +15,7 @@
 ## Introduction
 
 This project focuses on **classifying clothing images** into different categories using **Convolutional Neural Networks (CNNs)**. The goal is to develop a reliable image classification model capable of categorizing clothing into predefined labels like shirts, pants, and dresses.
+
 ![Clothing Classification Image](https://github.com/Abyaneh/Clothing_Classification/blob/main/photos/Clothing%20Classification%20Image.png)
 
 [Back to Top](#table-of-contents)
@@ -31,7 +32,6 @@ This project focuses on **classifying clothing images** into different categorie
 
 ### Data Preprocessing:
 - Images were resized and normalized to ensure consistent input.
-- **Data Augmentation** techniques such as rotation, zoom, and flipping were applied to enhance model generalization and prevent overfitting.
 
 [Back to Top](#table-of-contents)
 ## Model Architecture
@@ -40,16 +40,15 @@ We developed three CNN models with different architectures to find the optimal s
 
 ### Model 1 Architecture:
 - 4 convolutional layers with filter sizes of 32, 64, 128, and 256, each followed by **MaxPooling** layers.
-- Fully connected layer with 128 neurons and **ReLU** activation.
+- Fully connected layer and **ReLU** activation.
 - Output layer with **Softmax** for multi-class classification.
-- **Dropout Layer (0.5)** to mitigate overfitting.
 
 #### Model 1 Architecture:
 
 ![Model 1 Architecture](https://github.com/Abyaneh/Clothing_Classification/blob/main/photos/Model%201%20Architecture.jpg)
 
 ### Model 2 Architecture:
-- 3 convolutional layers with 32, 64, and 128 filter sizes, followed by **MaxPooling** layers.
+- 4 convolutional layers with 32, 64, 128 and 256 filter sizes, followed by **AveragePooling** layers.
 - Fully connected layer and Softmax output layer.
 
 #### Model 2 Architecture:
@@ -64,7 +63,7 @@ We developed three CNN models with different architectures to find the optimal s
 ### Optimization Techniques:
 - **EarlyStopping** to monitor validation accuracy and halt training when performance plateaus.
 - **ModelCheckpoint** to save the best model weights during training.
-- **Data Augmentation** for increasing dataset diversity.
+- **Data Augmentation** techniques such as rotation, zoom, and flipping were applied to enhance model generalization and prevent overfitting.
 
 [Back to Top](#table-of-contents)
 ## Results & Performance
@@ -87,7 +86,7 @@ We developed three CNN models with different architectures to find the optimal s
 #### Model3
 ![Model3](https://github.com/Abyaneh/Clothing_Classification/blob/main/photos/Epoch-Accuracy_and_Epoch_Loss_Chart_10epochs_model3.png)
 
-#### Hint: All of the models were trained for 10 epochs. I also trained this model for 5 epochs, and you can find the code in [this file](https://github.com/Abyaneh/Clothing_Classification/blob/main/Code/third_pro.ipynb)
+#### All of the models were trained for 10 epochs. I also trained this model for 5 epochs [(code)](https://github.com/Abyaneh/Clothing_Classification/blob/main/Code/third_pro.ipynb)
 
 [Back to Top](#table-of-contents)
 ## Technologies & Tools Used
